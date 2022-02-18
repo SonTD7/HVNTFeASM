@@ -12,17 +12,40 @@
 .invite-friend {
   max-height: 94.5%;
 }
+
 @media screen {
   /* For mobile phone: */
   body {
     background-color: rgb(255, 255, 255);
   }
+  .inbanner{
+    margin-bottom: 20%;
+    margin-top: -28.5%;
+    text-align: center;
+    color: rgba(214, 214, 214, 0.541);
+    font-style: bold;
+    font-family: "Sofia", sans-serif;
+  font-size: 9px;
+  text-shadow: 3px 3px 3px #ababab60;
+
+}
 }
 @media only screen and (min-width: 768px) {
   /* for tablets: */
   body {
     background-color: rgba(246, 252, 223, 0.767);
   }
+  .inbanner{
+    margin-bottom: 20%;
+    margin-top: -28.5%;
+    text-align: center;
+    color: rgba(214, 214, 214, 0.541);
+    font-style: bold;
+    font-family: "Sofia", sans-serif;
+  font-size: 15px;
+  text-shadow: 3px 3px 3px #ababab60;
+
+}
 }
 
 @media screen and (min-width: 987px) {
@@ -32,8 +55,8 @@
   }
   
 .inbanner{
-    margin-bottom: 450px;
-    margin-top: -370px;
+    margin-bottom: 37%;
+    margin-top: -28.5%;
     text-align: center;
     color: rgba(214, 214, 214, 0.541);
     font-style: bold;
