@@ -1,8 +1,29 @@
 .main img {
-    width: 100%;
+  width: 100%;
 }
 
+.navbar-nav {
+  margin-left: -20px;
+}
 .invite-friend {
-    height: 95%;
-   
+  max-height: 94.5%;
+}
+@media screen {
+  /* For mobile phone: */
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* for tablets: */
+  body {
+    background-color: rgba(246, 252, 223, 0.767);
+  }
+}
+
+@media screen and (min-width: 987px) {
+  /* For desktop: */
+  body {
+    background-color: rgb(244, 252, 210);
+  }
 }
