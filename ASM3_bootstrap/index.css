@@ -1,3 +1,7 @@
+
+.banner img{
+
+}
 .main img {
   width: 100%;
 }
@@ -26,4 +30,19 @@
   body {
     background-color: rgb(244, 252, 210);
   }
+  
+.inbanner{
+    margin-bottom: 450px;
+    margin-top: -370px;
+    text-align: center;
+    color: rgba(214, 214, 214, 0.541);
+    font-style: bold;
+    font-family: "Sofia", sans-serif;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px #ababab60;
+
+}
+.outbanner{
+    margin-top: -150px;
+}
 }
