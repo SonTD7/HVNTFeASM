@@ -7,7 +7,7 @@ const textConfig = {
   text6: "Cần mỗi anh <3",
   text7: "Em muốn đi ăn cái gì nà?",
   text8: "Gửi anh xem <3",
-  text9: "-----",
+  text9: "Em chưa biết:v",
   text10: "<3 Yêu 3000 <3",
   text11:
     "Tầm tuần nữa anh hết F0 rồi đưa em đi ăn nhá nhá nhá.",
