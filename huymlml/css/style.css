@@ -1,3 +1,10 @@
-.menu-top .navbar .container-fluid .lglg{
-    width: 8%;
+.menu-top .navbar-brand .lglg{
+    width: 80%;
+} 
+
+.img-fluid-2{
+    width: 50%;
+}
+.menu-top .dropdown .btn{
+    border: 0px;
 }
