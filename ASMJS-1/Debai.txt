@@ -1,0 +1,9 @@
+#ASMJS 01
+Link hướng dẫn:
+https://drive.google.com/.../12xgUg8.../view...
+Đề: 
+1, Sử dụng alert để hiển thị Message: “Chào mừng bạn đến với ứng dụng JavaScript đầu tiên”
+2, Sử dụng prompt để yêu cầu người dùng nhập tên
+3, gán giá trị nhận được vào thẻ <p id=”name”>
+4, Sử dụng prompt để yêu cầu người dùng nhập Thành phố và Số điện thoại, năm sinh tương tự như phần nhập tên. Nếu người dùng nhập Năm sinh > năm hiện tại thì yêu cầu nhập lại.
+5, Tạo một thẻ div có chứa message, khi bấm nút thì hiện message lên.
