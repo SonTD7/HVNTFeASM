@@ -21,8 +21,9 @@
             document.getElementById("hien").onclick = hienLen;
             function hienLen() {
                 alert("Chào mừng đến với ứng dụng JavaScript đầu tiên.")
+                document.getElementById("hienLen").onclick = hienLen2;
             }
-            function hienLen() {
+            function hienLen2() {
   let name = prompt("Yêu cầu đồng chí nhập họ và tên", "Trần Duy Sơn");
   if (name != null) {
     document.getElementById("ten").innerHTML =
