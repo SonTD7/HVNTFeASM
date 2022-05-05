@@ -14,28 +14,53 @@
 <body>
     <div class="container pt-5">
         <h1>Ứng tuyển người yêu xịn</h1>
-        <h4>Nhập thông tin cá nhân tại đây.</h4>
+        <h4 class="pb-3">Nhập thông tin cá nhân tại đây.</h4>
         <button id="hien" type="button" class="btn btn-outline-info">Tự tin nhập</button>
         <script>
-            
+
             document.getElementById("hien").onclick = hienLen;
             function hienLen() {
                 alert("Chào mừng đến với ứng dụng JavaScript đầu tiên.")
-                document.getElementById("hienLen").onclick = hienLen2;
+                hienLen2();
             }
             function hienLen2() {
-  let name = prompt("Yêu cầu đồng chí nhập họ và tên", "Trần Duy Sơn");
-  if (name != null) {
-    document.getElementById("ten").innerHTML =
-    "Chào " + person + "bạn thật trốc tru khi muốn tham gia vào đời tui.";
-  }
-}
-            
+                let name = prompt("Yêu cầu đồng chí nhập họ và tên", "Trần Duy Sơn");
+                if (name != null) {
+                    document.getElementById("ten").innerHTML =
+                        "Họ và tên: " + name;
+                }
+                hienLen3();
+            }
+            function hienLen3() {
+                let name = prompt("Thành phố", "Quảng Ngãi");
+                if (name != null) {
+                    document.getElementById("tp").innerHTML =
+                        "Thuộc thành phố: " + name;
+                }
+                hienLen4();
+            }
+            function hienLen4() {
+                let name = prompt("Số điện thoại", "0972******");
+                if (name != null) {
+                    document.getElementById("sdt").innerHTML =
+                        "Liên hệ: " + name;
+                }
+                hienLen5();
+            }
+            function hienLen5() {
+                let name = prompt("Năm sinh", "****");
+                if (name != null) {
+                    document.getElementById("nsinh").innerHTML =
+                        "Năm sinh: " + name;
+                }
+            }
         </script>
+        <div class="info pt-2 text-info ">
         <p id="ten"></p>
         <p id="tp"></p>
         <p id="sdt"></p>
-        <p id="nsinh"></p>
+        <p id="nsinh"></p> 
+    </div>
 
     </div>
 </body>
