@@ -48,19 +48,29 @@
                 hienLen5();
             }
             function hienLen5() {
-                let name = prompt("Năm sinh", "****");
-                if (name != null) {
+                var now = new Date().getFullYear();
+                let nameNs = prompt("Năm sinh", "****");
+                if (nameNs != null) {
+                    document.getElementById("nsinh").innerHTML =
+                        "Năm sinh: " + name;
+                }
+                if (nameNs > now) {
+                    {
+                        alert("Bạn đừng có nừa người, nhập lại đi.")
+                        hienLen5();
+                    }
+                } else {
                     document.getElementById("nsinh").innerHTML =
                         "Năm sinh: " + name;
                 }
             }
         </script>
         <div class="info pt-2 text-info ">
-        <p id="ten"></p>
-        <p id="tp"></p>
-        <p id="sdt"></p>
-        <p id="nsinh"></p> 
-    </div>
+            <p id="ten"></p>
+            <p id="tp"></p>
+            <p id="sdt"></p>
+            <p id="nsinh"></p>
+        </div>
 
     </div>
 </body>
