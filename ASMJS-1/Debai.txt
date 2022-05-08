@@ -7,3 +7,18 @@ https://drive.google.com/.../12xgUg8.../view...
 3, gán giá trị nhận được vào thẻ <p id=”name”>
 4, Sử dụng prompt để yêu cầu người dùng nhập Thành phố và Số điện thoại, năm sinh tương tự như phần nhập tên. Nếu người dùng nhập Năm sinh > năm hiện tại thì yêu cầu nhập lại.
 5, Tạo một thẻ div có chứa message, khi bấm nút thì hiện message lên.
+
+
+
+cách vấn đề để hoàn thành bài tập.
+- thiết kế kiến trúc để data thu được đúng theo nguyện vọng 
+Một số function to get data:
++ nhập tên ( chỉ được nhập chữ )
++ nhập thành phố ( chỉ được nhập chữ (tạo ra một data nhỏ để xác nhận thành phố nếu đúng thì cho qua bước tiếp) )
++ nhập số điện thoại ( chỉ được nhập số, đúng 10 chữ số )
++ nhập năm sinh ( giới hạng từ 1990 đến now )
+
+-------- những điều kiện chung--------
+Chung cả 4 -> != null -> mới cho điền tiếp, không nhận ký tự đặc biệt
+chỉ được nhập chữ không được nhập số ( tên và thành phố )
+chỉ được nhập số( năm sinh và số điện thoại ) 

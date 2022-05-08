@@ -12,59 +12,12 @@
 </head>
 
 <body>
+    <script src="../ASMJS-1/script.js"></script>
     <div class="container pt-5">
         <h1>Ứng tuyển người yêu xịn</h1>
         <h4 class="pb-3">Nhập thông tin cá nhân tại đây.</h4>
         <button id="hien" type="button" class="btn btn-outline-info">Tự tin nhập</button>
-        <script>
-
-            document.getElementById("hien").onclick = hienLen;
-            function hienLen() {
-                alert("Chào mừng đến với ứng dụng JavaScript đầu tiên.")
-                hienLen2();
-            }
-            function hienLen2() {
-                let name = prompt("Yêu cầu đồng chí nhập họ và tên", "Trần Duy Sơn");
-                if (name != null) {
-                    document.getElementById("ten").innerHTML =
-                        "Họ và tên: " + name;
-                }
-                hienLen3();
-            }
-            function hienLen3() {
-                let name = prompt("Thành phố", "Quảng Ngãi");
-                if (name != null) {
-                    document.getElementById("tp").innerHTML =
-                        "Thuộc thành phố: " + name;
-                }
-                hienLen4();
-            }
-            function hienLen4() {
-                let name = prompt("Số điện thoại", "0972******");
-                if (name != null) {
-                    document.getElementById("sdt").innerHTML =
-                        "Liên hệ: " + name;
-                }
-                hienLen5();
-            }
-            function hienLen5() {
-                var now = new Date().getFullYear();
-                let nameNs = prompt("Năm sinh", "****");
-                if (nameNs != null) {
-                    document.getElementById("nsinh").innerHTML =
-                        "Năm sinh: " + name;
-                }
-                if (nameNs > now) {
-                    {
-                        alert("Bạn đừng có nừa người, nhập lại đi.")
-                        hienLen5();
-                    }
-                } else {
-                    document.getElementById("nsinh").innerHTML =
-                        "Năm sinh: " + nameNs;
-                }
-            }
-        </script>
+        <script src="../ASMJS-1/script.js"></script>
         <div class="info pt-2 text-info ">
             <p id="ten"></p>
             <p id="tp"></p>
