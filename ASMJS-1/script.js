@@ -98,20 +98,18 @@ function hienLen() {
     }
   } while (nameSo == "" || isNaN(nameSo));
   let nameNs;
-  do{
+  do {
     nameNs = prompt("Năm sinh", "2001");
-    if(nameNs == "" || isNaN(nameNs)){
-alert("Phải nhập số nhỏ hơn năm hiện tại và lớn hơn 1990 cơ. -.-");
-    } else{
+    if (nameNs == "" || isNaN(nameNs)) {
+      alert("Phải nhập số nhỏ hơn năm hiện tại và lớn hơn 1990 cơ. -.-");
+    } else {
       document.getElementById("nsinh").innerHTML = nameNs;
     }
-  
-  } while(nameNs == "" || isNaN(nameNs));
-  
+  } while (nameNs == "" || isNaN(nameNs));
 }
-document.getElementById("len").style.display = 'none';
-document.getElementById("showMessage").style.borderBlockColor = 'pink';
-document.getElementById("showMessage").style.backgroundColor = 'green';
-document.getElementById("showMessage").onclick = function () {  
-  document.getElementById("len").style.display = 'block';
+document.getElementById("len").style.display = "none";
+document.getElementById("showMessage").style.borderBlockColor = "pink";
+document.getElementById("showMessage").style.backgroundColor = "green";
+document.getElementById("showMessage").onclick = function () {
+  document.getElementById("len").style.display = "block";
 };
