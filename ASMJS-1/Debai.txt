@@ -22,3 +22,9 @@ Một số function to get data:
 Chung cả 4 -> != null -> mới cho điền tiếp, không nhận ký tự đặc biệt
 chỉ được nhập chữ không được nhập số ( tên và thành phố )
 chỉ được nhập số( năm sinh và số điện thoại ) 
+
+
+
+Note :
+- document.ready
+- ngoài stye có thể thay đổi cả onclick cả type thay đổi để 90% các type từ phần tử document trong html 
