@@ -1,0 +1,11 @@
+asm2 js
+Tạo một trang nhập điểm, có 5 ô input, nhập tên, dob, điểm toán, lý, hoá.
+Bấm nút add thì nó thêm vào bảng.
+Bấm nút tính điểm trung bình thì nó tính điểm trung bình
+Bấm nút xác định học sinh giỏi thì nó xác định học sinh giỏi và bôi vàng.
+
+- - - -
+1.tạo bảng bằng js hiện lên html  ( 5 ô input - Tên / dob / điểm toán / lý / hoá )
+2. tạo hàm nhập thông tin vào 5 ô input, cho ẩn và khi ấn vào nút add thì nó thêm vào bảng
+3. viết một hàm tính điểm trung bình và lấy dữ liệu điểm từ các ô input đưa vào
+4. viết điều kiện để xác định học lực học sinh cho xuất ẩn kết quả sau khi duyệt qua if. kích vào nút xác nhận học lực thì nó xuất hiện và bôi vàng
